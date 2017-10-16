@@ -19,8 +19,10 @@ void free_and_reset_board(struct rolled_dice** game_board,
 		struct preset_dice* input_array_of_dice) {
 
 	for (int i = 0; i < 4; i++) {
+		for(int k=0; K< 4; k++){
+			for(int z= 0; z<7 ;z++){
 		free(game_board[i]);
-	}
+	}}}
 	roll_dice(game_board, input_array_of_dice);
 }
 
